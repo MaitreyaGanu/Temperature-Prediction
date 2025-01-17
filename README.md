@@ -27,6 +27,7 @@ The main goal is to predict future temperatures for the city of Seattle with hig
 - **LSTM Model**: A neural network architecture specialized in time-series data that helps in predicting future temperature values based on past observations.
 - **Data Visualization**: Visualizations of actual vs predicted temperatures and training loss over epochs.
 - **Performance Metrics**: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared (R²) for evaluating the model's prediction accuracy.
+- **Epochs** : 100 for both types of temperatures.
 
 ## Technologies Used
 
@@ -43,12 +44,11 @@ The main goal is to predict future temperatures for the city of Seattle with hig
 After training the LSTM model on the Seattle temperature dataset, the model achieved the following performance metrics for predicting the maximum and minimum temperatures:
 
 ### **For Maximum Temperature:**
-- **Mean Squared Error (MSE)**: The model achieved an MSE of **3.29**, indicating the average squared difference between the predicted and actual values.
-- **Root Mean Squared Error (RMSE)**: The model obtained an RMSE of **1.81°C**, showing the standard deviation of prediction errors, which is a measure of how much the predictions deviate from the actual values.
-
+- **Mean Squared Error (MSE)**: The model achieved an MSE of **3.29**.
+- **Root Mean Squared Error (RMSE)**: The model obtained an RMSE of **1.81°C**.
 ### **For Minimum Temperature:**
-- **Mean Squared Error (MSE)**: The model achieved an MSE of **3.42**, reflecting the squared average of the differences between predicted and actual temperatures.
-- **Root Mean Squared Error (RMSE)**: The RMSE for minimum temperature predictions was **1.85°C**, indicating how much the predicted minimum temperatures deviate from the true values.
+- **Mean Squared Error (MSE)**: The model achieved an MSE of **3.42**.
+- **Root Mean Squared Error (RMSE)**: The RMSE for minimum temperature predictions was **1.85°C**.
 
 
 
