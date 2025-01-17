@@ -1,4 +1,4 @@
-# Temperature Prediction Using LSTM on Seattle Dataset with 7-Day Moving Average
+# Temperature Prediction Using LSTM
 
 This project demonstrates the use of Long Short-Term Memory (LSTM) networks to predict the daily temperatures in Seattle. The dataset is preprocessed by using a **7-day moving average** to smooth the data and capture long-term trends. The LSTM model is trained to forecast future temperatures based on past observations, making it a useful tool for time-series prediction.
 
